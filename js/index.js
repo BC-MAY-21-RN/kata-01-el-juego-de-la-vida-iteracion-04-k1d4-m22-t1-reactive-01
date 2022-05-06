@@ -6,7 +6,7 @@ const inicializaTablero = (filaString, columnasString) => {
   const tabla = new Tablero(fila, columna);
   setInterval(() => {
     tabla.getTablero();
-  }, 1000);
+  }, 2000);
 };
 
 inicializaTablero(process.argv[2], process.argv[3]);

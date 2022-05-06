@@ -34,7 +34,7 @@ class Tablero {
       for (let j = 0; j < this.filas; j += 1) {
         cont += 1;
         const vivas = this.contador(i, j);
-        this.cambiosEstado(vivas, i, j, this.estructura[j][i].state);
+        this.cambiosEstado(vivas, i, j, this.estructura[i][j].state);
       }
     }
     return cont;
@@ -65,7 +65,7 @@ class Tablero {
       if (cantVecinos === 3 || cantVecinos === 2) {
         this.estructura[posX][posY].estado = 1;
         nuevoEstado = 1;
-      } else {
+      } else if (cantVecinos < 2 || cantVecinos > 3) {
         this.estructura[posX][posY].estado = 0;
         nuevoEstado = 0;
       }
