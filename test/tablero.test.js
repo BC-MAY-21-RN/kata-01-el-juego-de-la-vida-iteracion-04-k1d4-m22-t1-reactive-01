@@ -19,4 +19,12 @@ describe('Pruebas de la clase Cell', () => {
     expect(tablero.cambiosEstado(1, 1, 1, 1)).toBe(0);
     expect(tablero.cambiosEstado(3, 1, 1, 0)).toBe(1);
   });
+  test('Pruebas de recorrer tablero', () => {
+    const tablero = new Tablero(2, 2);
+    expect(tablero.recorrerTablero()).toBe(4);
+  });
+  test('Pruebas de recorrer tablero', () => {
+    const tablero = new Tablero(2, 2);
+    expect(tablero.getTablero()).toBeUndefined();
+  });
 });

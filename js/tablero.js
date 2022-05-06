@@ -29,12 +29,15 @@ class Tablero {
   }
 
   recorrerTablero() {
+    let cont = 0;
     for (let i = 0; i < this.columnas; i += 1) {
       for (let j = 0; j < this.filas; j += 1) {
+        cont += 1;
         const vivas = this.contador(i, j);
         this.cambiosEstado(vivas, i, j, this.estructura[j][i].state);
       }
     }
+    return cont;
   }
 
   contador(x, y) {
