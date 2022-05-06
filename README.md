@@ -1,5 +1,7 @@
 ![BrightCoders Logo](img/logo-bc.png)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/257167ee6704d701418f/maintainability)](https://codeclimate.com/github/BC-MAY-21-RN/kata-01-el-juego-de-la-vida-iteracion-04-k1d4-m22-t1-reactive-01/maintainability)
+
 # Kata El Juego de la Vida
 ![cover](img/cover.jpg)
 <span>Photo by <a href="https://unsplash.com/@anubhav?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Anubhav Saxena</a> on <a href="https://unsplash.com/s/photos/life?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
